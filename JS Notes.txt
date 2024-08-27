@@ -1,0 +1,1299 @@
+ARBA NET
+NSF NET
+INTERNET
+w3c: world wide web consortium (organisation) : team of sir Tim Berner's lee
+Market or internet new website or web-application html use webpages design.
+
+--------------------------------
+What is the role of w3c?
+Ans:- 1. Verify the Standerds of the web.
+2. All the versions of the html and thier developement is strictly takes care by w3c.
+3. All older versions of the html and later versions (html 6 > version) will be launched by w3c.
+4. All the web-releated protocol afre cross checked by w3c.
+5. W3c maintence the list of the blacklist and whitelist domains (websites) which has to be 
+    ranked in Search Engines (crawlers) for SEO.
+6. Maintences the security polocies for http over https, networks  
+--------------------------------------
+
+Explation
+----------------
+Internet diffrent services we have diffrent type of protocol
+1. For mail  : smtp (simple mail transfer protocol)
+2. For http : http protocol (hyper text transfer protocol)
+3. http service over secure networks : https (http + s(secure))
+4. ftp : file transfer protocol
+5. bdtp : binary data transfer protocol
+...
+...
+...
+6. ssl protocol : secure socket layer protocol
+7. file : file protocol
+8. tel : telecome protocol (telephone)
+9. mail to : mailto protocol.
+-------------------------------------
+
+Syntax
+**************
+protocol:/
+bdtp:/
+ssh:/
+or
+protocol://
+ssl://
+http://
+ftp://
+https://
+or
+protocol:///
+file:///
+or 
+protocol:
+mailto:
+tel:
+****** velocity, veroity, volume ******
+==================================================
+What is whatwg?
+***************
+Ans :- Web Hypertext Application Technology working group.
+1. User experiance
+2. Whatwg is group of 4 major companies
+    1. Microsoft Cooperation
+    2. Apple Incooperation
+    3. Mozilla firefox
+    4. Opera S/w
+3. Whatwg has given web-form of version 1.0 /2.0/ 3.0 to html4 and html5 respectively.
+------------------------------------
+Major difference w3c and whatwg
+w3c :- major changes after major intervel time.
+whatwg :- Little changes in every little time : changes directly proportional user experiance.
+--------------------------------------
+World First Browser : mozak puplically not available
+Public Browser : Netscape Navigator
+
+Ui/Ux 
+Netscape Navigator : 1st version 1994 complete failure
+21-Dec-1995 Breinden Eiech => 2nd version launch Netscape2 => Ui/Ux loved by public.
+
+Netscape Navigator 2 launching 1 Jan in 10 days, Breinden Eiech powerful Programming language, Js was made.
+Js html css => DHTML (Dynamic HTML)
+-------------------------------------------
+JS : 1996 to 2000 Js language (very good)
+2000 to 2009 Js major changes did not happen.
+2022 : js No one Technology.
+JS => Product => Netscape
+1998 => Ecma Share sale Ecma organisation.
+European Computer Manufacturing Association .
+Non Profitable organisation, Js R&D explore .
+2000 Js 1.0 version (Ecma Script 1)
+Today Js is owned by Mozilla Cooperation
+Ecma is a part or wing of Mozilla Cooperation.  
+-----------------------------------------------
+
+
+JS two form 
+1. Before Ecma (Traditional)
+2. After Ecma Standerds (Modern Js)
+    Base Foundation : ReactJs, NodeJs, Angular, Vuejs
+
+Syntax wise Similarity JAVA : camelcase
+JavaScript : camelcase
+super and this  are same in java and JavaScript
+class and object concept java and js 
+
+
+
+Note:: Js Object based Programming language .
+Java Object Oriented language.
+Js everything is object.
+Java everything is class then , Object.
+--------------------------------------------
+
+In CS , A-Z language most popular cases or style of Programming While writing the code.
+
+1. kebab case : my girl friend name is katreena.
+                my-girl-friend-name-is-katreena
+
+2. snake case : my wife is aliya.
+                my_wife_is_aliya
+
+3. lover case and Uppercase Combination :-
+tajmahal : lovercase
+Tajmahal : [T] Uppercase [ajmahal] lower : capital case
+Block TAJMAHAL (All letter in Uppercase)
+
+kebab Uppercase : MY-GF-NAME-IS-KATREENA
+snake Uppercase : MY_WIFE_IS_ALIA 
+
+4. Camelcase : my name is khan
+                every first letter of word will be capital with no space.
+                also first letter of the word will be small
+
+                myNameIsKhan
+            
+5. Pascelcase : same as camelcase first letter that is also capital
+                myNameIsKhan : camelcase
+                MyNameIsKhan : Pascelcase
+***************************************************************
+
+What are Keywords ?
+These are reserved keywords which have some special meaning releated to any language. 
+Keywords have a complete sense.
+------------------------------------
+Class is a Logical Identity (Entity/Thing) 
+and 
+Object is a Physical Identity (Entity/Thing).
+----------------------------------------------------------------------------------
+
+Javascript is object based
+---------------------------
+based on in generally used when we are more depedent on current senerio rather then
+permanent one.
+----------------------------
+
+Introduction to  Traditional JS
+**********************************
+    1. The tradiition is called as Vanilla Js.
+       Vanilla Js plain/pure Js.
+
+2. Vanilla Js , Client Side.
+Web Technology :- Client and Server Model
+
+Client Side :- Browser Side.
+Client sends the request to the server
+and server receive request, process and return response.
+
+Server response:  
+ok: 200
+cancel: 404
+These 200 and 404 called http status code.
+ 
+A class : 100-199 Intiated or Processing request
+B class : 200-299 Ok Response or success Response
+C class : 300-399 Resdirection Response
+D class : 400-499 Failed or cancel Response
+E class : 500-599 : 500 : Server Error, Internal Server Error
+
+How to see Request and Response In Browser
+Browser ----> Search any url -----> Response (Result)
+Right click + Inspect ----> Network Layer
+-----------------------------------------
+
+How to right First Js code :-
+*******************************
+BOM and DOM Manupulation.
+BOM :- Browser Object Model
+DOM :- Document Object Model
+
+Js is Object Based Plateform
+Mantra of coding in js
+******************************
+1. Target or focus the element.
+2. Decide the event.
+3. Get the value or set the value.
+4. Finish.
+------------------------------------------------------
+
+Concept of Id and name :-
+*********************************
+Kaise tag ko target kare 
+paragraph 
+1. p : tagname or element
+2. id = "para" : id
+3. class = 'paraclass' : class
+
+
+How to target :- 
+*******************
+1. document.getElementById(); : dom : clientside
+2. document.getElementByClassName(); : dom : clientside
+3. document.getElementByTagName(); : dom : clientside
+4. document.getElementByName(); : dom : serverside
+
+
+============================================
+Html in order to target any element
+1. clientside : id , class, tag
+2. serverside : name
+
+
+
+attribute is also called as , propertyname
+proparty or attribute two types
+
+1. Local attribute or private attribute : 
+img  => src
+script => src
+link => href
+anchor => href
+
+link ---> href x
+script ---> href x
+
+link ---> src x
+anchor ---> src x
+
+value ---> form element or tags
+heading or paragraph --------------> value x 
+
+2. Globle attribute or public attribute
+
+style : attribute any tag.
+title : attribute any tag.
+align : attribute any tag.
+
+id : attribute any tag.
+class : attribute any tag. 
+data  : attribute any tag. 
+hidden : attribute any tag.
+......
+.......etc 
+
+Two Important Concept :-
+***************************
+Object (Single) : Js ---> Object ---> both are diffrent
+Array (Collection) : Js ---> Object ---> both are diffrent
+
+
+                     document.getElementByName
+                     |
+<input type="text" name="name" id="txt-box-1" class="class-control">
+<input type="text" name="email" id="txt-box-2" class="class-control">
+    |                           |                         |
+    |                           |                         |
+    |                           document.getElementById   |
+    |                                                     |
+    |                                                     |
+    |                                                     document.getElementByClassName
+    |
+    document.getElementByTagName ('input')                          
+
+
+
+    Every Tag is a Object here.
+
+    getting and setting :-
+    **************************************
+                          attribute                  attribute
+                         |                           |
+    <input type="text" name="name" id="txt-box-1" class="class-control">
+            |                       |
+            attribute               attribute
+
+
+get
+********
+Tag.propertyname;
+
+set
+********
+Tag.propertyname = value;
+
+How to convert this input box to password box
+
+<input type="text" name="name" id="txt-box-1" class="class-control">
+
+tag.type=password
+
+<img src="katreena" height="200px" width="200px">
+ img.height = "400px"
+ img.width = "400px"
+
+ img.height = "50px"
+ img.width = "50px"
+
+ img.src = 'kareena.png'
+ img.src = 'aaliya.png'
+ img.src = 'kajol.png'
+ img.src = 'kajal agrawal.png'
+
+ ----------------------------------------------
+Events in JavaScript :-
+**************************
+1. Event  ----> attach --> Tag --> event is a attribute.
+2. Every event ki shuruaat, on se hogi jaise......
+
+oncopy
+oncut
+onpaste
+onclick
+onmouseover
+onmouseout
+onmouseenter
+onmouseleave
+onfocus
+onblur
+onkeypress
+onkeydown
+onkeyup
+onload
+onunload
+
+
+
+******************************************
+How many ways you can write Js in Html
+**********************************************
+1. Within same line or inline
+2. inside
+    <script>
+        // your js code here
+    </script>
+Internal Js 
+
+3. External Js 
+
+        Dil kahi aur dimag kahi aur...
+        Js code 
+        xyz.js
+                document.getElementById()
+                ...
+                ..
+                .
+        p1.html
+
+        xyz.js -----------> attach or link ------------> p1.html
+                    <script src="xyz.js" type="text/javascript">
+                    </script>
+        
+        kaise pta chlega ki js file link hai ya nhi 
+        ctrl+U 
+        <script src="xyz.js" type="text/javascript"></script>
+                -----------
+                Blue color line
+                        click Agar xyz.js open ho jaye to link hai
+                        aur agar message aaye ki filenotfound to matlab nhi hua hai
+                        link nhi hua hai
+                        nhi hua hai to js nhi chalega
+                        
+ Mix mode or Hybrid mode
+ 1. External + Internal + Inline
+
+ How to get Output in JS :-
+**********************************
+1. console.log()
+2. window.alert() or alert()
+3. document.write()
+
+console.log() : BOM
+data show in console screen.
+console screen => Browser in Tab , Right click on the document goto inspact menu and goto
+console option or tab and you will get output.
+
+console has 4 measure parts 
+1. info
+2. debug
+3. warn 
+4. verbose or error 
+
+
+console.log.('Hy');
+console.log.("Hy");
+
+
+In js '' or "" both are called as strings literals meaning
+in order to Identity as strings any thing which is inside '' or "" are called string.
+
+10 : integer (Number)
+11 : integer (Number)
+10.5 : float or decimal number systems (Number)
+
+'10' => String 
+"10" => String
+
+Js is Programmer Friendly language
+1. Semicolon is not mendatory (compulsory)
+        ; lagao ya na lagao chalega
+
+2. type declaration is not mendatory.
+    flexible or adjusting
+    'hello'
+    "hello"
+
+    In C language : 'Character'
+    In C language : "String"
+
+3. Strict typing (Mode) is by default disabled in JavaScript
+meaning : Js me default strict mode off hota hai.
+
+
+    "use strict" : Js ka strict mode on ho jata hai.
+
+
+    int x=10; integer
+    x='a';
+    x="ravi";
+
+----------------------
+
+    x=10; integer
+    x=10.5; ok
+    x='a'; ok 
+    x="abc"; ok 
+    x= object; ok
+
+Note :- Dynamic Sementics (Weakly typed) and Static Sementics (rigid or strict typed) :-
+****************************************************************************************
+
+Dynamic Sementics : Type Changing is allowed.
+Static Sementics : type Changing not allowed.
+
+
+How to check type in js 
+**************************
+typeof(any-value)  // type kya hai
+
+
+---------------------------------------------------------
+Types of Operator in Generals :-
+*********************************
+1. Single morphic Operator : Single Behaviour.
+2. Polymorphic Operator : Multiple Behaviour.
+
+        This  classification (difference | antar), can be diffrent in diffrent Programming language.
+
+    Python :-
+    *******************
+    * : Multiply : 10*5 => 50
+    * : String repeat : 5*"hi" => hihihihihi
+
+    + : addition and concatenation
+      + 10+5 => 15
+      + "hi"+5 => hi5 (concatenation: one must in string)
+      Note :- int +int => sum
+              string + string => concatenation
+              int + string => concatenation
+              string + int => concatenation
+
+
+    _ : Name Convention
+    _ : Buffer Operator
+    _ : Name Mangling
+
+    /=> Single Division
+
+    In C language :-
+    ****************************
+    * => Polymorphic * : Multiply and Pointer
+    % => Polymorphic => Reminder and Formatspecifier %c, %d, %i, %u, %f, %s 
+    \ => Polymorphic => Escape Character : \n, \t, \v, \f, in case of Pointer
+
+    String and Array
+    last Character : NULL Pointer '\0'
+    & Polymorphic : Address of memory in Internal pointer 
+                    Bitwise Operator
+                    Logical Operator.
+    
+
+    console.log() : You can pass any numbers (kitene bhi char, number, string, boolean,..........) of inputs or parameter or arguments.
+    console.log() : Support csv(coma sperated values).
+
+        10+20 =30
+        10*30 =200
+
+        10 ----> Binary (Encoding)
+        20 ----> Binary (Encoding)
+        Binary + Binary OR Operation
+        Output --------> Binary
+        Binary -------------> Number Decimal or Integer (Decoding)
+
+
+        a, b, c, ............. > Binary ??
+        aapke keyboard 104 keys Character
+        Number --------- (Number System) ----------> Binary
+        a-z 
+        A-Z 
+        symbols 
+        ? / () * + $ % & * -----------------> Binary ??
+        a--------------> Ascii code (Integer) ------------> Number System --->  Binary
+
+        0
+        255
+
+        a - 97 + 25 
+        a - 97 
+        z - 122
+
+        97 - 32 => 65 => A + 25 => 90
+        A - 65
+        Z - 90
+
+        0 - 48
+        1 - 49
+        9 - 57
+
+        # -> 35
+        space -> 32
+        Enter -> 10
+
+        ASCII : American Standerds Code for Information Interchange. 
+        https://www.asciitable.com/
+
+
+Concept of function and language construct :-
+***************************************************
+language construct : are special kind of Identifier which scan be used as function and as an expression.
+In this brackets are not mendatory i.e. you can use the brackets and you can also avoid brackets.
+
+Note :- Identifier : name given tom anything is called Identifier.
+Ex.
+ Identifier : Variables , function, constant, classanme, objectname, language construct....., 
+ packagename, filename.......
+
+
+ Few Important Points :-
+ *************************
+ 1. JavaScript is Interpreted in nature.
+    Execution hoga wo line by line hoga.
+    Meaning if Execution is in line 5 And js line 5 Execution block line after 5 won't 
+    execute.
+
+2. Js can handle one object at a time.
+   BOM or DOM .
+3. DOM and BOM me , Blocking nature is of BOM .
+   this is called Object Blocking Mechanism in Js.
+
+   ----------------------------------------------
+
+Bhai Bhai ka dushman is Application in Js.
+window.alert() ----------> BOM
+window.alert() ----------> BOM
+
+Reason Interpreted in JavaScript.
+Vanilla Js is Synchronous and Single Threaded.
+Synchronous meaning, one Event depedent on another event for some Operation.
+Problem waiting state and pending state.
+
+Promises : Js most most valuable. // *Most Important Topic
+
+
+Wierd part of Js
+*****************
+1. Js line by Line execute.
+2. This Execution is not according to Programming Execution according Object
+Model Tree.
+            [Object] ancestor of Browser,parent of Browser
+                [Browser] ancestor of document, parentof document
+                    [Document] ancestor of html, parent of html
+                        [html] parent of head and body
+            [head] child of html [body] child of html (siblings)
+             ...                  ...
+             ...                  ...
+
+             Execution Top to Bottom
+             Loading Object ---> BOM ---> DOM   
+----------------------------------------------------------
+
+
+What is full form of NaN?
+Ans :- Not a Number.
+
+What is the Type of NaN?
+Ans :- Type of NaN => Number 
+IEEE Standerd NaN --------> Number
+
+ Example :-
+    > 'a'+10
+    > 'a10'
+    > 'a'*10
+    > NaN
+    > typeof(NaN);
+    > 'number'
+
+Exception in JS
+**********************
+console.log() can be used to print anything.
+window.alert() : string output   (iska prayog nhi karna hai) 
+document.write() : string output (iska prayog nhi karna hai) 
+
+----------------------------------------------------------------------
+
+Working user defined functions in JS .
+********************************************
+Functions : are block of code ,which perform some special task .
+
+functions are classified into 2 types
+1. Ready-made or systemdefined or predefined or library functions.
+    Already made by some one used by us.
+    Eg :- 
+
+2. Userdefined or custom functions.
+    Made by us and used by us.
+
+Note :: Functions are used , when there is a requirement of repeatative task to be done.
+
+Note :: Every predefine function is, user defined when it is made for the firsttime.
+
+Example of predefine :- 
+window.alert()
+eval()
+console.log()
+document.getElementById()
+document,getElementByClassName()
+.
+.
+.
+document.write()
+
+Exampleof user defined :-
+display()
+dosomething()
+dance()
+xyz()
+...
+...
+...
+==============================
+
+In Js we have a lot of function
+********************************
+1. Normal function : function xyz()
+2. Arrow function () => {}
+3. IIFE function : Immediatly invocked function
+4. factory functions
+5. methods
+6. Higher Order function
+7. closures
+8. callbacks
+9. Anonymous function
+...
+------------------------------------------
+
+Synatx of Userdefined Function :-
+-----------------------------------
+
+Normal functionka Synatx
+php and js : normal function same.
+
+// Making Function
+ function xyz () {
+        // code here
+ }
+
+
+// Using Function
+
+xyz(); //  1st time use // calling of a function
+xyz(); //  2nd time use // calling of a function
+xyz(); //  3rd time use // calling of a function
+xyz(); //  4th time use // calling of a function
+xyz(); //  5th time use // calling of a function
+
+-------------------------------------------------------
+
+Trigger the Functions :-
+--------------------------
+function gun(){
+
+}
+
+A gun() call : or Trigger
+B gun()
+C gun()
+D gun()
+ankit gun()
+
+
+Arguments and parameter passing in a Function
+*****************************************************
+what are arguments or parameter :-
+
+Any value or input passed to a function is called , as arguments or parameter.
+
+For Example :  Bullet (input, parameter,argument) in gun (function) is a input.
+
+How to pass inputs :-
+***************************
+                     input
+                       |
+output <- function xyz( )
+
+Eg . add(10,20) : 10 and 20 are input to the function add.
+    10,20----Input---> add -----output----> 30
+
+How to take output from a functions:-
+*****************************************
+
+             30      input
+            <----    |  |
+    var result = add(10,20);
+    console.log(result);  //30
+
+Note :- In order to take back output.
+                return keyword
+
+                return 10; // Number return
+                return 'Ankit'; // String return 
+                return; // void return
+
+
+                function add(a,b){
+                    return a+b;
+                }
+
+                a--->b--->c--->d--->10
+                a<---b<---c<---d<----
+
+
+Difference w/b Number and parseInt() :-
+*******************************************
+
+Type conversion in Js 
+
+sometime (kabhi kabhi) hame Jarurat padti hai type ko apne according convert karne ki.
+so agar hum chahe to js me type ka conversion kar sakte hai using type conversion.
+
+
+concept :-
+************
+
+Type conversion are 2 types :-
+
+Imlicit type (Autometic type conversion) :-
+
+1. 10 int 20 int but 10+20 = 30 = 1020 apne aap ho gaya kisi ne js ko bola nhi convet karne ke liye.
+Apne aap liye na so ye kahlayega implicit conversion.
+
+Explicit Conversion :-
+*************************
+2. 1020 apne aap me kya tha string tha , hamne kisme convert karna chahte hai, int me
+to convert kiya jabardasti , isko kahte hai Explicit type conversion.
+
+
+    Number() : convert type according type
+                "10.2" => Number() => 10.2
+                "10" => Number() => 10
+                Pascel Case
+
+    parseInt() : convert type to int
+            "10.2" => parseInt() => 10
+            "10.6" => parseInt() => 10
+            10.6 => parseInt() => 10
+            Camel Case
+
+Q1. x and y 
+    find a+b using formula a(square) - b(square)
+
+    What should be the value of x and y
+    so that datatype is NaN
+    1) x>y
+    2) x<y
+    3) x=y
+    4) x!=y
+
+    (a*a - b*b) / (a-b) where a>b and (a-b)>0 => a=b x
+    --------------- => Indeterminate form . (cannot be solved, Inf (NAN)) 0
+
+
+Current Instance or Current Object:-
+*************************************
+hame pta hai ki , js me sab kuch object hota hai.
+atah jis element ko aap target karte hai wo swayam me ek object hota hai.
+tat paschat yadi hame kisi object ke refrence me koi task ya (event) karana ho to use ham
+kara sakte hai, bahut aasan hai by using........
+
+document.getElementById() se target karke.
+
+but kabhi kbhi jaha se event trigger hua hai use bhi hame target karna hota hai, or aisa 
+karne ke 2 tarike hai.......
+
+1. event => function() chalaye and isi ko hum id deke document.getElementById() ka use 
+karke for Example :-
+<select onclick="calculate();" id="operator">
+
+</select>
+
+2. Current Object ke scope ka use karke.....
+
+this : current Object of the event.
+<select onclick="calculate(this);">
+    function calculate(x){
+
+    }
+</select>
+ ye x =  target karega select object ko....
+
+ Taking Decision in JS :-
+ ***************************
+
+ if block : true
+ else block : false
+
+ Syntax:
+    if(take decision){
+        // if wala code will run only if is true.
+    }else{
+        // else wala code will run only if is false.
+    }
+
+Decision vote eligible ho ya nhi hai
+*******************************************
+ if (age >= 18){
+    console.log('You are eligible.');
+ } else{
+    console.log('You are not eligible.');
+ }
+
+
+ Q. Which case is followed in css :-
+ 1. background-color:red;
+    kababcase
+
+Q. How will you write in Js :-
+
+-----------------------------------------------
+
+
+How to disable and enable context menu :-
+*****************************************
+In Right click we have many options
+ctrl+c , ctrl+v 
+inspect
+ctrl+U : View page sourse
+but short cut will work.
+
+How to do :-
+***************** 
+contextMenu : is a part of BOM.
+window.contextmenu = return false: disable
+window.contextmenu = return true: enable//allow
+
+
+contextmenu => event => oncontextmenu
+It is same as onclick
+
+Function are classified
+Named and Un-named(Anonymous) :-
+
+Named functions :- They have a name
+for eg : function function_name(){
+
+}
+
+Eg : 
+        function add(){
+        
+        }
+        
+        function minus(){
+        
+        }
+        
+        function dance(){
+        
+        }
+        ...
+        ...
+
+Since named function have names they, can be called.If you can caal them you can trigger event.
+
+
+Anonymous Function :-
+*************************
+
+They don't have a name.
+Since they don't have a name can't caal them.
+but they can be assigned to a variable in form a expression hence anonymous function are also a part of expression hence they require Semicolon when written a line.
+For Eg:-
+**********
+consider a normal function
+function xyz(){
+
+}   ----> calling ----> xyz();
+
+x = function(){
+
+};
+
+// calling ----> x();
+
+
+Anonymous function they can be also passed as parameter.
+xyz(10,20); // number,number
+xyz(10,'name'); // number,string
+xyz(function(){},10,'name'); //Anonymous function,number string
+
+========================================================================================
+Timing Functions or Events
+****************************
+Jab bhi hame ki event time ke hisab se karna ho jaise, mai chahta ki generally jab likhe hain , 
+window.alert(); ------> document load ------> windowload 
+waise hai ,alert chal jayega.
+I want , alert 5 seconds baad chale Js app timing paas karke in milliseconds.
+
+
+0.5 seconds ---------> 500 milliseconds
+1 sec -----> 1000 milliseconds
+2 seconds ---------> 2000 milliseconds
+
+setTimeout => Function
+setInterval => Function
+time, is a thread/process 
+
+setTimeout --------> jab jab chalega ------> time Thread(process) Create.
+setInterval ------> jab jab chalega ---------> time Thread(process) Create.
+
+setTimeout => Add delay in a any single event once started for one time.
+setInterval => Add delay in a any single event once started for n-th time once started.
+
+Working with localStorage :-
+*****************************
+
+localStorage : BOM part which is responsible for storing data.
+localStorage : It is used to store data locally, and data in localStorage is stored in form
+of string.
+localStorage : Is permanent data storage which will remain , ever after the page is reloaded or refresh untill deleted or Browser un-installed.
+
+            Data will be stored in form key and value pair.
+            key --> Property 
+            value --> value
+
+For Example :- Student 
+            Name - "Ankit Kumar Nishad",
+            class - 12
+            roll no - 1001
+            email - ankitnishad6313@gmail.com
+            password - 12345
+            DOB - 16-04-2001
+            ...
+            ...
+            ...
+            Left value => Keys Student(Object)
+            Right value => values
+            Js : => JSON (JavaScript Object Notation)
+
+JavaScript Object Notation : (JSON) : data represent karne ka format or tarika.
+It is not a technology, or not it is a language.
+
+SGML : Standerd General Markup language.
+                Two Child 
+                    |
+        |------------------------|
+    Data Present                Data Store
+    html (presentation)         XML (extensible markup languge)
+
+      <html>
+          <head></head>
+          <body>
+              <h1>Hello</h1>
+              <b>Bold</b>
+          </body>
+      </html>
+
+In API World,
+        1. SOAP : Simple Object Access Protocol.
+        2. REST : Representation State Transfer.
+
+                    SOAP vs REST
+                    ************
+    SOAP : Simple Object Access Protocol.
+    REST : Representation State Transfer.
+
+    SOAP : Data Store , in form of XML.
+    REST : Data Store, JSON, yml(yan't markup language | yet another markup language)
+
+            JSON : Current
+            YML : Future
+    
+    SOAP : Heavy => (XML)
+    REST : Lighted Waighted => (JSON)
+
+    SOAP Older Convention
+    REST: Modern Convention
+
+    SOAP : Harder or manage
+    REST : Easy very very
+
+    SOAP : Data Transfer high bandwith.
+    REST : Data Transfer low bandwith.
+
+    SOAP : insecure
+    REST : secure
+
+    SOAP : http | ftp |smtp | all types protocol even it is secure or not
+    REST : https:// => secure
+
+    SOAP : Networks services or protocol service
+            Infrared, Bluetooth, Hotspot,(SOAP)
+    REST : web services : https
+            GPRS, Edge Mode, Umts, Hspa, LTE (Internet)
+
+XML :- 
+*******
+
+in html <H1></h1> : case-senstiveAllowed
+<img> <img/> : <ankit> custom tag not allowed
+
+
+xml : strict
+case-senstive 
+<tag></TAG> : error
+<awanish></awanish> custom tag can be made.
+
+We know that, ultimately data, store database (mysql,oracle ms sql server, mariaDB)
+
+Databse => Tabular Format (rows and columns)
+Table => Relations => RDBMS (Relational Database Management System)
+
+
+Table format data store
+Table : Student
++--------------------------------------+
+| id | name     | class | roll | marks |
++--------------------------------------+
+| 1  | Ankit    | 12th  | 1001 |  80   |
++--------------------------------------+
+| 2  | Diwakar  | 10th  | 1002 |  70   |
++--------------------------------------+
+| 3  | Ritesh   | 11th  | 1003 |  60   |
++--------------------------------------+
+
+
+JSON :-
+
+Record => object => key and value
+[{
+    id:1,
+    name : "Ankit",
+    class : "12th",
+    roll : 1001,
+    marks : 80,
+    }, ------------------------------->0
+{
+    id:2,
+    name : "Diwakar",
+    class : "10th",
+    roll : 1002,
+    marks : 70,
+}, ------------------------------------1
+{
+    id:3,
+    name : "Navneet",
+    class : "11th",
+    roll : 1003,
+    marks : 60,
+    }, ------------------------------->2
+]
+
+Array => Object
+Array of Object => Array ---->Array--->Array :huge
+JSON
+
+Record 1 :
+************
+Student_Arr[0].id
+Student_Arr[0].name
+Student_Arr[0].class
+Student_Arr[0].roll
+Student_Arr[0].marks
+
+Record 2 :
+************
+Student_Arr[1].id
+Student_Arr[1].name
+Student_Arr[1].class
+Student_Arr[1].roll
+Student_Arr[1].marks
+
+Record 3 :
+************
+Student_Arr[2].id
+Student_Arr[2].name
+Student_Arr[2].class
+Student_Arr[2].roll
+Student_Arr[2].marks
+
+i => 0 to 2
+for(){
+    Student_Arr[i].id
+    Student_Arr[i].name
+    Student_Arr[i].class
+    Student_Arr[i].roll
+    Student_Arr[i].marks
+}
+
+
+XMl :-
+
+<?xml encoding="utf-8" lang="en-us" version="1.0"?>
+<xml>
+    <Student>
+        <id>1</id>
+        <name>Ankit</name>
+        <class>12th</class>
+        <roll>1001</roll>
+        <mark>80</mark>
+    </Student>
+    <Student>
+        <id>2</id>
+        <name>Diwakar</name>
+        <class>10th</class>
+        <roll>1002</roll>
+        <mark>70</mark>
+    </Student>
+    <Student>
+        <id>3</id>
+        <name>Navneet</name>
+        <class>11th</class>
+        <roll>1003</roll>
+        <mark>60</mark>
+    </Student>
+</xml>
+
+Access :- 
+documnet.xml.student[0].child(id)
+document.xml.student[0].child(name)
+
+or
+
+document.xml.student[0].child(id).leftSibling(1);
+document.xml.student[0].child(id).rightSibling(1);
+document.xml.student[0].child(id).rightSibling(2);
+document.xml.student[0].child(id).rightSibling(3);
+
+
+How to set localStorage or insert data in localStorage :-
+********************************************************
+window.localStorage.setItem(keyname,value);
+--------------------------------------------------------
+
+How to get data localStorage or select data in localStorage:-
+**********************************************************
+window.localStorage.getItem(keyname);
+--------------------------------------------------------
+
+How to delete the single value :-
+*************************************
+window.localStorage.setItem(keyname,"");
+or
+window.localStorage.setItem(keyname,null);
+or
+window.localStorage.removeItem(keyname);
+---------------------------------------------------------
+
+How to clear All localStorage :-
+*******************************
+window.localStorage.clear();
+
+------------------------------------------------------------
+
+Array : []
+Object : {}
+String : ""
+Number : 10 or 10.6
+Boolean : true or false
+
+
+true - true => 0
+  1  -  1 
+ 
+ true + true = 2 Number
+  1   +  1 
+
+  [
+    {},
+    {},
+    {}
+  ]
+
+  Array of object
+
+  Multiple Array of object :- JSON
+
+  JSON => String => JSONString => "[{},{},{}]" (Encoding)
+
+  JSONString = Array of object => JSONObject (Decoding)
+
+
+  Type conversion in JSON (*********)
+  ******************************************
+  JSON => String : JSON.stringify()
+  JSONString => JSONObject : JSON.parse()
+
+
+Looping or Iterations :-
+*************************
+Sometimes , kabhi kabhi ew require to perform task , n no. of times in that case we go for looping or Iteration. 
+Till now we have setInterval function which was used to do any time repeatedly after n no of times.
+
+setInterval (function(){
+    window.alert('Hii');
+},1000);
+
+window.alert();  // n times
+
+Loop : cycle at least once.
+Body starting from point A must returned to same point A then it is called as Cycle.
+
+In a loop :- 
+
+1. Starting : counter start 
+2. Ending : counter stop
+3. Updation (Increment/Decrement)
+    counter = counter + n
+    or 
+    counter = counter - n
+    +---------------------------------------------------------+
+    | sr no | counter | n | counter+n | counter = (counter+1) |
+    +---------------------------------------------------------+
+    | 1.    |    0    | 2 |   0+2     |     counter = 2       |
+    +---------------------------------------------------------+
+    | 2.    |    2    | 2 |   2+2     |     counter = 4       |
+    +---------------------------------------------------------+
+    | 3.    |    4    | 2 |   4+2     |     counter = 6       |
+    +---------------------------------------------------------+
+    | 4.    |    6    | 2 |   6+2     |     counter = 8       |
+    +---------------------------------------------------------+
+
+
+    How to write loops in 4 steps :-
+    ****************************************
+    1. Use Infinite loop
+    for(;;){
+        // any code
+    }
+
+    while(true){
+        // any code
+    }
+
+
+    2. Add counter for starting : counter = start;
+            counter = 0;
+
+    3. Add last limit to the loop and break the execution of teh loop at last limit.
+            counter == 10; 
+
+        if (counter == 10){
+            break;
+        }
+    
+    4. Please update counter otherwise loop will be infinite.
+
+    Convert :- ------>
+    1. counter Starting : place in its position.
+    2. Counter Updation : place it in its position.
+    3. If condition ka reverse kariye : place it in its position.
+
+    | sr no | 1 | name | name[i] | name[i]=null | i+1 | i=i+1 |
+    +---------------------------------------------------------+
+    |   1   |
+
+
+
+
+
+
+
+    Difference B/w while loop and for loop.
+    *********************************************
+    1. Iteration of for loop +1 than other loops.
+    2. For can run without body but while can not.
+    3. In for you can use counter or may not use counter
+       but in while loop counter can not (impossible) be added, if body is present.
+    4. Updation in for loop will be when condition is true otherwise not.
+       While there is no body , updation not possible.
+
+
+
+
+
